@@ -40,3 +40,12 @@ __include "buffer-storage";
 __include "accelerate-vector-coopmat";
 __include "vectorized-reader";
 __include "shared-memory-pool";
+
+// Frontend APIs built on the primitives above
+__include "iactivation";
+__include "activations";
+__include "layers";
+__include "iloss";
+__include "losses";
+__include "ioptimizer";
+__include "optimizers";
